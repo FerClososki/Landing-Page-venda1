@@ -142,8 +142,15 @@ nav a {
     margin-right: auto;
 }
 
-.agendar {
+.agendar2 {
     color: #c59d5f;
+}
+
+.agendar {
+    padding: 80px 10%;
+    text-align: center;
+    background: #c59d5f;
+    color: black;
 }
 
 .agendar button {
