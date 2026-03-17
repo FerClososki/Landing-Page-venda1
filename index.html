@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Elite</title>
+    <link rel="stylesheet" href="projeto/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Barbearia Elite</div>
+        <nav>
+            <a href="#servicos">Serviços</a>
+            <a href="#galeria">Galeria</a>
+            <a class="btn-nav" href="#agendar">Agendar</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Seu estilo começa aqui</h1>
+            <p>Cortes modernos, barba perfeita e atendimento premium.</p>
+
+            <button onclick="scrollToBooking()">Agendar Horário</button>
+        </div>
+    </section>
+    <section class="servicos" id="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="servicos-grid">
+            <div class="servico">
+                <h3>Corte Masculino</h3>
+                <p>Corte moderno com acabamento profissional.</p>
+                <span>R$40</span>
+            </div>
+            <div class="servico">
+                <h3>Barba</h3>
+                <p>Modelagem completa com toalha quente.</p>
+                <span>R$30</span>
+            </div>
+            <div class="servico">
+                <h3>Corte + Barba</h3>
+                <p>Combo completo para renovar o visual.</p>
+                <span>R$60</span>
+            </div>
+        </div>
+    </section>
+    <section class="galeria" id="galeria">
+        <h2>Trabalhos Recentes</h2>
+        <div class="galeria-grid">
+
+            <div class="foto"></div>
+            <div class="foto"></div>
+            <div class="foto"></div>
+            <div class="foto"></div>
+        </div>
+    </section>
+    <section class="agendar" id="agendar">
+        <h2>Agende seu horário</h2>
+        <p>Clique no botão abaixo e fale conosco no WhatsApp</p>
+        <button onclick="whatsapp()">Agendar pelo WhatsApp</button>
+    </section>
+    <footer>
+        <p>© 2026 Barbearia Elite</p>
+    </footer>
+    <script src="projeto/javascript.js"></script>
+</body>
+</html>
